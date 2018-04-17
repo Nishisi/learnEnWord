@@ -11,7 +11,7 @@
 
 	<ul>
 	    {{range $i, $v := .Words}}
-	    <li>{{index $.Examples $i}} {{$v}} はValues[i]</li>
+	    <li>{{$v}} {{index $.Examples $i}} </li>
 	    {{end}}
 	
 	</ul>
